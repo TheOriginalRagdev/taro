@@ -328,8 +328,8 @@ var Server = IgeClass.extend({
 				domain: req.get('host'),
 				version: Math.floor((Math.random() * 10000000) + 1),
 				constants: {
-					appName: 'Modd.io   ',
-					appUrl: 'http://www.modd.io/',
+					appName: 'iobuild.io   ',
+					appUrl: 'http://www.iobuild.io/',
 					noAds: true,
 					assetsProvider: ''
 				},
@@ -390,7 +390,7 @@ var Server = IgeClass.extend({
 			// dev gets map from local file
 			if (ige.env == 'standalone' || ige.env == 'standalone-remote' || ige.env === 'production') { // production or staging gets map data from API
 				// using BE's URL instead of GS Manager because GS Manager is overloaded right now so..
-				domain = 'https://www.modd.io';
+				domain = 'https://www.iobuild.io';
 			}
 			else {
 				domain = global.beUrl;
