@@ -24,7 +24,7 @@ var Client = IgeClass.extend({
         var self = this;
         self.data = [];
         self.previousScore = 0;
-        self.host = window.isStandalone ? 'https://www.modd.io' : '';
+        self.host = window.isStandalone ? 'https://www.iobuild.io' : '';
         self.loadedTextures = {};
 
         console.log("var getUrl ", window.location.hostname)
