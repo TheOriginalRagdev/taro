@@ -17,8 +17,8 @@ var IgePixiChatBubble = IgeEntity.extend({
         this.category('chatbubble');
 
         var words = chatText;
-        if (words.length > 40) {
-            words = words.substring(0, 40);
+        if (words.length > 100) {
+            words = words.substring(0, 100);
             words += '...';
         }
         var style = {
